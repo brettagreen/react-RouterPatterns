@@ -1,0 +1,24 @@
+.navBar {
+    /*background-color: #3a24f0;
+    padding: 10px;*/
+    text-align: center;
+    width: 50%;
+  
+    /* Pay special attention here! */
+    position: fixed;
+    top: 0px;
+}
+
+a.navBarLink {
+    color: gray;
+    text-decoration: none;
+}
+  
+a.navBarLink.active {
+    text-decoration: none;
+    color: black;
+}
+
+li {
+    list-style: none;
+}
